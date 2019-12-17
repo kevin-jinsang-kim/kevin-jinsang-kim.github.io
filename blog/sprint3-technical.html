@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Kevin's Blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+  <div class="header">
+    <a href="../index.html"><h1 class="home-link">Kevin's Blog</h1></a>
+  </div>
+
+  <div class="menu">
+      <a href="aboutme.html">About Me</a>
+      <br>
+      <a href="sprints.html">DevAcademy</a>
+      <br>
+      <a href="contact.html">Contact Me</a>
+  </div>
+
+  <div class="main">
+    <h1>Sprint 3 Technical</h1>
+    <h2>HTML, CSS and the DOM<h2>
+    <h3>An analogy for HTML and CSS</h3>
+      <p>Hypertext Markup Language (HTML) is used to create the contents of the page, and the Cascading Styling Sheet (CSS) is used to display things, well, "nicely".</p>
+      <p>To put this into an easy analogy, we can think of HTML and CSS like a book. HTML is all the content, but the book would look rather silly if the content wasn't arranged into a "book".</p>
+      <p>This is where CSS comes into play. CSS is responsible for arranging the contents and decide how the book is going to look for the person reading it!</p>
+      <br>
+
+    <h3>Control Flow and Loops</h3>
+      <p>To put it easily, control flow is the order execution of a script.</p>
+      <p>Normally, the script is read by the computer from top to bottom. However, if we introduce control flow, it creates conditional statements to control how the code runs!</p>
+      <p>An example of a control flow is the 'if' statement, where a condition requires to be met for the code to execute. For instance:</p>
+      <p class = "p-left">if (cat == hungry) {<br>callButler();<br>} else {<br>sleep();<br>}</p>
+      <p>This shows that if the cat is hungry, it will call its Butler, and in any other case, it would sleep.</p>
+      <br>
+      <p>Now, looking at loops, it sounds pretty self explanatory right? It's when an action is repeated until a condition is met.</p>
+      <p>Let's take drawing cards as an example:</p>
+      <p class = "p-left">do {<br>drawCard();<br>} while (hand < 5)</p>
+      <p>In the above example, the code will repeat itself until the number of cards in his hand is LESS than 5 (so 4 cards). You can see here how control flow can help execute code under different conditions.</p>
+      <br>
+
+    <h3>What the DOM?!</h3>
+      <p>"DOM" isn't a word you'd usually say or hear in your everyday life. DOM stands for Document Object Model and it treats what we see on the pages (HTML) as a tree structure.</p>
+      <p>It helps us to interact with various elements on the page you see, and we can even edit the page using the DOM and allows us to be much more flexible with JavaScript as well!</p>
+      <br>
+
+    <h3>Accessing arrays and objects</h3>
+      <p>To start this topic, it would be helpful if I explain what an array and object is.</p>
+      <p>Easily put, an array is a list of objects, such as a shopping list, and an object is something with properties and values for those properties. I'm sure the following information will make this a little easier to understand.</p>
+      <p class = "p-left">var array = ["cat", "dog", "cow", "chicken"]</p>
+      <p class = "p-left">var object = {<br>name: "Objecto",<br>legs: 4,<br>ethnicity: "Martian",<br>likes: ["food", "cats", "garlic"]<br>} </p>
+      <p>In order to call upon arrays, we use indexing via the [] brackets, and the first object in the array is [0], which would be "cat", and [3] would be "chicken" which is in the 4th position.</p>
+      <p>For objects, there are 2 ways to access them, using . or []. For example, to access the name of the object, we could write object.name or object["name"], which would show its name.</p>
+      <p>A large portion of what we do with coding is called Object Orientated Programing (OOP), and involves the use of objects and acessing them.</p>
+      <br>
+
+    <h3>Functions: What are they and how are they useful?<h3>
+      <p>A function is a fundamental part of coding, and it is a JavaScript procedure. It is a set of statements that performs a task (function) depending on how we code it.</p>
+      <p>A very basic function would be something that does addition, subtraction, multiplication etc., and here is an example.</p>
+      <p class = "p-left">function addition(a, b) {<br> return = a + b;<br>}<br>console.log(addition(3, 5))<br></p>
+      <p>and this would return 8 as the answer.</p>
+      <p>We can now call on the addition function anytime with different arguements (i.e. addition(10, 5) to get 15), as we have created it as a function.
+
+
+
+
+  </div>
+
+</body>
+
+</html>
