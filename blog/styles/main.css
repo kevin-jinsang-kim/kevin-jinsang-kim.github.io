@@ -1,0 +1,151 @@
+* {
+  font-family: 'Questrial', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+}
+
+
+.header {
+  padding: 15px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+
+.nav-item {
+  color: #FFF;
+  padding-left: 5px;
+  padding-left: 5px;
+}
+
+#home {
+  grid-column: 2 / 3;
+}
+
+#about-me {
+  grid-column: 3 / 4;
+}
+
+#dev-academy {
+  grid-column: 4 / 5;
+}
+
+#contact-me {
+  grid-column: 5 / 6;
+}
+
+.menu {
+  display: grid;
+  width: 100%;
+  padding: 15px;
+  grid-template-columns: 6fr 1.5fr 1.5fr 1.5fr 1.5fr;
+  text-align: center;
+  background-color: #C1D8E0;
+}
+.menu a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+.menu a:hover {
+  color: #9A9FA3;
+}
+.main {
+
+  float: center;
+  padding: 15px;
+  text-align: center;
+  background-color: #C1D8E0;
+}
+
+p {
+  font-size: 20px;
+  color: #FFF;
+}
+
+.text-explain {
+  color: #9A9FA3;
+}
+
+.selector {
+  display: grid;
+  margin: 50px;
+  text-align: center;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.selector a {
+  text-decoration: none;
+  color: #9A9FA3;
+  font-size: 24px;
+  grid-column: 2 / 3;
+}
+
+.selector a:hover {
+  color: #A7C2CD;
+}
+
+.selector p {
+  color: #A7C2CD;
+  grid-column: 2 / 3;
+}
+
+.main a {
+  text-decoration: none;
+  color: #9A9FA3;
+  font-size: 18px;
+}
+
+h1 {
+  color: #FFF;
+  padding-bottom: 30px;
+  font-size: 72px;
+}
+
+h2 {
+  color: #797687;
+  font-size: 30px;
+}
+
+h3 {
+  color: #9A9FA3;
+  font-size: 22px;
+}
+.h2-left {
+  text-align: left;
+}
+
+.p-left {
+  text-align: left
+}
+
+.span-a {
+  display: inline;
+  margin-top: 20px;
+  padding: 5px;
+  border: 1px solid white;
+  background-color: #2AD2C9;
+}
+
+.span-b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid white;
+  background-color: #2AD2C9;
+}
+
+.span-c {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid white;
+  background-color: #2AD2C9;
+}
